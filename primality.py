@@ -15,8 +15,7 @@
 
 
 def primalidad(number):
-    for i in range(2,number+1):
-        if i != 1 and i != number:
+    for i in range(2,number):
             if number % i != 0:
                 continue
             else:
