@@ -1,3 +1,18 @@
+###########################################################
+###########################################################
+
+################### PRIMALITY PROGRAM #####################
+
+###########################################################
+
+####################### DESCRIPTION #######################
+# This program let you know if the number (that you insert) 
+# is or is not a prime number.
+
+######################### AUTHOR ##########################
+# Ing. DANIEL EDUARDO MONTERO RAMÍREZ
+
+
 
 def primalidad(number):
     for i in range(2,number+1):
@@ -7,6 +22,7 @@ def primalidad(number):
             else:
                 return False
     return True        
+
 
 def run():
     number = input('Please insert a number: ')
