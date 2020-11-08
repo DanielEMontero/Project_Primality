@@ -31,7 +31,9 @@ def run():
     except:
         print('Please, insert only integer numbers.')
         quit
-    if primalidad(number) == False:
+    if number == 1:
+        print('The number is not a prime number')
+    elif primalidad(number) == False:
         print('The number is not a prime number')
     else:
         print('The number is a prime number')
